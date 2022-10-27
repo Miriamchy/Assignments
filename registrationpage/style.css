@@ -1,0 +1,53 @@
+*{
+
+    box-sizing: border-box
+}
+
+.container {
+width: 70%;
+padding: 20px;
+background-image:url(https://i.postimg.cc/YSm3jFjx/web-ba-2.jpg);
+  margin: auto;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin: top 10px;
+    margin: bottom 10px;
+    border: none;
+}
+
+input:focus{
+background-color: #ddd;
+border: none;
+}
+
+a{
+    color: blue;
+}
+.registerbtn{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: green;
+    color:white ;
+}
+
+.registerbtn:hover{
+opacity: 10;
+
+}
+.loginSubmit{ width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: green;
+    color:white ;
+  
+}
+.loginSubmit{
+opacity: 10;
+}
